@@ -4,76 +4,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="naeem.css" type="text/css" media="all">
+
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
-    <div class="bg-[#FCDC2A] container mx-auto">
-         <section class="container mx-auto">
-        <div class="flex justify-between ">
-            <div><img src="./assets/cropped-logo-1.png.webp" alt=""></div>
-            <div class="leading-10 text-center	">
-                <div class="text-6xl font-extrabold ">Course Training</div>
-                <div class="text-2xl font-bold">Nogor Bhaban-6100</div>
-                <div class="text-xl font-semibold">Email:rccesdi@gmail.com</div>
-            </div>
-            <div class="border-2 p-1 flex items-center border-black">
-                <div class="flex items-center">
-                    <div class="border rounded-full px-1  text-2xl font-bold  border-[#114232] ">
-                     Choose File
+<body class="bg-[#1bbb8b7c] ">
+    <div class="bg-[#1bbb8bb5] container mx-auto p-2 ">
+        <section class="container mx-auto">
+            <div class="flex justify-between ">
+                <div><img src="./assets/cropped-logo-1.png.webp" alt=""></div>
+                <div class="leading-10 text-center	">
+                    <div class="text-6xl font-extrabold ">Course Training</div>
+                    <div class="text-2xl font-bold">Nogor Bhaban-6100</div>
+                    <div class="text-xl font-semibold">Email:rccesdi@gmail.com</div>
+                </div>
+                <div class="border-2 p-1 flex items-center border-black">
+                    <div class="flex items-center">
+                        <div class="border rounded-full px-1  text-2xl font-bold  border-[#114232] ">
+                            Choose File
+                        </div>
+                        <div class=" font-medium text-xl">No files chosen</div>
                     </div>
-                    <div class=" font-medium text-xl">No files chosen</div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="COURSE REGISTRATION FROM">
+            <div class="rainbow"></div>
+            <!-- <div class="flex justify-center items-center mt-10 ">
+                <div
+                    class=" rainbow bg-amber-300 text-orange-800 font-bold  text-2xl  border-l-4 border-r-4 border-black border-2  rounded-full p-2">
+                    COURSE REGISTRATION FROM
+                </div>
+            </div> -->
+        </section>
+
+
+        <section id="Registration" class="container mx-auto">
+            <div class="flex justify-between ">
+                <div class="flex items-center gap-2">
+                    <div class="text-3xl font-semibold">Registration Point</div>
+                    <input type="radio">
+                    <div class="text-2xl font-medium">Online</div>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="text-2xl font-semibold">Date:</div>
+                    <div>
+                        <input class="h-10 border-3 rounded-full border-black px-2 text-2xl" type="date">
+
+
+
+                    </div>
                 </div>
 
             </div>
 
-        </div>
-    </section>
-    <div class="flex justify-center items-center mt-10 ">
-        <div
-            class=" bg-amber-300 text-orange-800 font-bold  text-2xl  border-l-4 border-r-4 border-black border-2  rounded-full p-2">
-            COURSE REGISTRATION FROM
-        </div>
-    </div>
-    <section class="container mx-auto">
-        <div class="flex justify-between ">
-            <div class="flex items-center gap-2">
-                <div class="text-3xl font-semibold">Registration Point</div>
-                <div class="w-5 h-5 bg-green-700 rounded-full "></div>
-                <div class="text-2xl font-medium">Online</div>
+        </section>
+
+
+
+        <section id="NAME">
+            <div class="">
+                <div class="text-3xl font-medium ">FULL NAME(Block letter)</div>
+                <div class="h-2"></div>
+                <div class="w-full h-[65px] border-4 border-black rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text" placeholder="">
+                </div>
+
             </div>
-            <div class="flex items-center">
-                <div class="text-2xl font-semibold">Date : </div>
-                <div>
-                    <input class="h-10 border-3 rounded-full border-black px-2 text-2xl" type="text" placeholder="mm/dd/yyyy">
-                    <span class="material-symbols-outlined">
-                        calendar_month
-                    </span>
-                 
+        </section>
+
+        <section class="1and2contact">
+
+            <div class="flex gap-3 ">
+                <div class="w-1/2">
+                    <div class="text-3xl font-medium ">1st Contact</div>
+                    <div class=" border-4 border-pink-800 rounded-full  w-full h-[65px]">
+                        <input class="rounded-full w-full h-14" type="text">
+                    </div>
+
+                </div>
+                <div class="w-1/2">
+                    <div class="text-3xl font-medium ">2st Contact</div>
+                    <div class=" border-4 border-pink-800 rounded-full w-full h-[65px]">
+                        <input class=" rounded-full w-full h-14" type="text">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="Email">
+            <div class="">
+                <div class="text-3xl font-medium ">Email Address</div>
+                <div class="h-2"></div>
+                <div class="w-full h-[65px] border-4 border-black rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text" placeholder="">
+                </div>
+
+            </div>
+        </section>
+        <section id="Nationalid">
+            <div class="">
+                <div class="text-3xl font-medium ">National Id(Optional):</div>
+                <div class="h-2"></div>
+                <div class="w-full h-[65px] border-4 border-black rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text" placeholder="">
+                </div>
+
+            </div>
+        </section>
+        <section id="Mailling">
+            <div class="">
+                <div class="text-3xl font-medium ">Mailling Address:</div>
+                <div class="h-2"></div>
+                <div class="w-full h-[65px] border-4 border-black rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text" placeholder="">
+                </div>
+
+            </div>
+        </section>
+        <section id="educationlevel " class="pb-4">
+            <div class="gap-5 flex ">
+                <div class="text-3xl font-medium">Educational Level :</div>
+                <div class="flex text-xl font-medium  items-center gap-4">
+                    <input type="radio" name="naeem">
+                    <div>Diploma</div>
+                    <input type="radio" name="naeem">
+                    <div>B.Sc</div>
+                    <input type="radio" name="naeem">
+                    <div>M.Sc</div>
+                    <input type="radio" name="naeem">
+                    <div>Other</div>
+                </div>
+            </div>
+        </section>
+        <section id="occupation" class="pb-4">
+            <div class="gap-24 flex ">
+                <div class="text-3xl font-medium">Occupation :</div>
+                <div class="flex text-xl font-medium  items-center gap-4">
+                    <input type="radio" name="naeem">
+                    <div>Student</div>
+                    <input type="radio" name="naeem">
+                    <div>Job Holder</div>
+                    <input type="radio" name="naeem">
+                    <div>Others</div>
 
                 </div>
             </div>
+        </section>
+        <section id="organization">
+            <div>
+                <div class="text-3xl font-medium">Organization/Institute</div>
+                <div class="h-2"></div>
+                <div class="w-full h-16 border-4 border-red-700 rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text">
 
-        </div>
+                </div>
+            </div>
+        </section>
+        <section id="CourseName">
+            <div>
+                <div class="text-3xl font-medium">Course Name</div>
+                <div class="h-2"></div>
+                <div class="w-full h-16 border-4 border-red-700 rounded-full">
+                    <input class="w-full h-14 rounded-full" type="text">
 
-    </section>
-    
+                </div>
+            </div>
+        </section>
+        <section id="Condition">
+            <div class="gap-24 flex ">
+                <div class="text-3xl font-medium">Condition:</div>
+                <div class="flex text-xl font-medium  items-center gap-4">
+                    <input type="checkbox" name="naeem">
+                    <div>I have declare that the information provide is true and correct. In case any of the above
+                        information is found to be false or untrue or misleadind or misrepresenting. I am aware that I
+                        may be held liable for it.</div>
 
 
-    <section class="">
-        <div class="">
-            <div class="text-3xl font-medium ">FULL NAME(Block letter)</div>
-            <div class="h-2"></div>
-            <div class="w-full h-12 border-2 border-black  rounded-md"></div>
-        </div>
-    </section>
-
-
-
-
-
+                </div>
+            </div>
+        </section>
+        <section>
+            <button class="bg-green-600 w-24 h-12 rounded-full hover:bg-white font-bold ">Submit</button>
+        </section>
 
 
 
@@ -81,7 +202,7 @@
 
 
     </div>
-   
+
 
 </body>
 
